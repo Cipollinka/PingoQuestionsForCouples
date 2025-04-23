@@ -431,7 +431,7 @@ const PingoGameScreen = ({ setSelectedPingoScreen, setBackgroundMusic }) => {
                                     {'\n'}Choose a mode and start having fun!
                                 </Text>
                                 <View style={{ marginTop: dimensions.height * 0.05 }} />
-                                {['For two Players', 'Online Game'].map((mode) => (
+                                {['For two Players'].map((mode) => (
                                     <TouchableOpacity
                                         key={mode}
                                         onPress={() => {
